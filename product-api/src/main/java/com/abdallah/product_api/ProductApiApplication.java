@@ -14,10 +14,10 @@ public class ProductApiApplication {
 
 }
 
-//@RestController
-//class MyController{
-//	@GetMapping("/")
-//	public String home(){
-//		return "Hello, Spring Boot";
-//	}
-//}
+@RestController
+class MyController{
+	@GetMapping("hello")
+	public String home(){
+		return "Hello, Spring Boot";
+	}
+}
