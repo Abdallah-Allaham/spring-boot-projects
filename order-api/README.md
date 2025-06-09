@@ -67,7 +67,7 @@ The API operates on `http://localhost:8080/`. You can use Postman to test the fo
 * `POST /product` : Create a new product.
     * **Body (JSON):** `{"name": "...", "price": ..., "Quantity": ..., "description": "...", "imageUrl": "..."}`
 * `PUT /product/{id}` : Update an existing product.
-    * **Body (JSON):** `{"id": ..., "name": "...", "price": ..., "stockQuantity": ..., "description": "...", "imageUrl": "..."}`
+    * **Body (JSON):** `{"id": ..., "name": "...", "price": ..., "quantity": ..., "description": "...", "imageUrl": "..."}`
 * `PUT /product/{id}/quantity?newQuantity={value}` : Update only the stock quantity.
 * `DELETE /product/{id}` : Delete a product.
 
