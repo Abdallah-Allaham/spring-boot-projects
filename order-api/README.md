@@ -46,13 +46,12 @@ This project is a backend API for a simple e-commerce order management system, b
 
 The project consists of the following core layers:
 
-* `src/main/java/com/abdallah/order_api/model`: Contains the **Entities** representing the database tables (`Customer`, `Product`, `Order`, `OrderItem`).
-* `src/main/java/com/abdallah/order_api/repo`: Houses the **Repositories** that provide the interface for database operations (CRUD operations).
-* `src/main/java/com/abdallah/order_api/service`: Contains the **Services** that encapsulate the Business Logic and orchestrate interactions between repositories.
-* `src/main/java/com/abdallah/order_api/controller`: Holds the **Controllers** responsible for receiving and handling HTTP requests, then returning responses.
-* `src/main/resources/application.properties`: Application and database configuration file.
-* `src/main/resources/data.sql`: An SQL file containing initial (dummy) data, loaded automatically when the application starts.
-* `src/main/java/com/abdallah/order_api/OrderApiApplication.java`: The main entry point for the Spring Boot application.
+* model: Contains the **Entities** representing the database tables (`Customer`, `Product`, `Order`, `OrderItem`).
+* repo: Houses the **Repositories** that provide the interface for database operations (CRUD operations).
+* service: Contains the **Services** that encapsulate the Business Logic and orchestrate interactions between repositories.
+* controller: Holds the **Controllers** responsible for receiving and handling HTTP requests, then returning responses.
+* application.properties: Application and database configuration file.
+* OrderApiApplication.java: The main entry point for the Spring Boot application.
 
 ---
 
